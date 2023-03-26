@@ -1,18 +1,22 @@
 # cloudProject
 
-# Subject Description:
-The subject of the project is a cloud-based e-commerce application that consists of three microservices: Inventory, Order and Warehouse. 
+Subject Description:
+
+The subject of the project is a cloud-based e-commerce application that consists of three microservices: Inventory, Order and Warehouse.
+
 Inventory Microservice: Manages the inventory of products, including the stock levels, product details, and product categories.
+
 Order Microservice: Manages customer orders, including order creation, order updates, and order cancellation.
+
 Warehouse Microservice: Manages warehouses and the stock items stored within them, including warehouse locations and stock availability.
+
 The communication between the microservices is implemented using Kafka message streaming.
 
-# Architecture:
+Architecture:
 The architecture of the project follows a microservices-based architecture pattern. Each microservice is implemented as an independent and modular service that can be deployed, scaled, and updated separately. Each microservice has its own data store and can communicate with other microservices using Kafka message streaming.
 The project uses Spring Boot for developing the microservices, Kafka for message streaming, and MySQL for data storage. Kubernetes is used for container orchestration.
 
 Tools and Technologies:
-
 •	Java
 •	Spring Boot:
 •	Docker
@@ -21,8 +25,7 @@ Tools and Technologies:
 •	MySQL
 •	Terraform
 
-# Running the project:
-
+Running the project:
 To run the project, you will need to have the following installed on your machine:
 •	Java 17
 •	Apache Maven
